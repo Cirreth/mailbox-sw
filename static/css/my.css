@@ -1,0 +1,56 @@
+.circle {
+    border-radius: 500px;
+    height: 300px;
+    width: 300px;
+    padding: 50px;
+    padding-left: 62px;
+    margin: 0 auto;
+    background: rgba(0, 130, 29, 0.63);
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    0px 0px 30px 0px rgba(50, 50, 50, 0.5);
+    box-shadow:         0px 0px 30px 0px rgba(50, 50, 50, 0.5);
+}
+.select-none {
+    user-select: none;
+}
+textarea, input, button {
+    outline: none;
+}
+textarea, textarea:hover, textarea:focus, textarea:active {border:none; outline:none;}
+.buffer-tb {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.buffer-lr-30 {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.circle:active {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.8);
+    -moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.8);
+    box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.8);
+}
+.icon-off {
+    color: #AAA;
+}
+.icon-purple {
+    color: #aa00c7;
+}
+.icon-blue {
+    color: #0672c1;
+}
+.icon-green {
+    color: #009653;
+}
+.icon-red {
+    color: #c30010;
+}
+.fs40 {
+    font-size: 50pt;
+}
+.fsi {
+    font-size: 30pt;
+}
+.fs25 {
+    font-size: 25pt;
+}

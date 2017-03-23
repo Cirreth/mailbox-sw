@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="doorbell">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="static/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="static/css/my.css"/>
+</head>
+<body ng-controller="MainController">
+
+    <div class="container text-center select-none" ng-init="init()">
+
+        <div class="row" style="margin-top: 10px">
+            <div class="col-xs-3 col-xs-offset-9">
+                <span class="glyphicon glyphicon-envelope icon-off fs40"
+                      ng-class="{'icon-purple': state.newMail, 'icon-off': !state.newMail}"
+                      aria-hidden="true"></span><br/>
+                <span ng-if="state.newMail"></span>
+                <span ng-if="!state.newMail"></span>
+            </div>
+        </div>
+
+        <div class="row buffer-tb" ng-hide="unlockRequested">
+            <div class="col-xs-6 col-xs-offset-3">
+                <div class="circle" ng-click="unlockRequested = true">
+                    <span class="glyphicon glyphicon-lock" aria-hidden="true" style="font-size: 140pt; color: white;"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 buffer-tb" ng-show="unlockRequested" style="height: 300px">
+            <div class="col-xs-12 fs25"><strong>You sure?</strong></div>
+            <div class="btn-group" role="group" aria-label="...">
+                <button type="button" class="btn btn-default buffer-lr-30" ng-click="confirmOpen()">
+                    <span class="glyphicon glyphicon-ok icon-green fs40"
+                          style="margin-bottom: 8px;" aria-hidden="true"></span>
+                </button>
+                <button type="button" class="btn btn-default" ng-click="cancelOpen()">
+                    <span class="glyphicon glyphicon-remove icon-red fs40"
+                          style="margin-bottom: 8px;" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+
+        <div class="row buffer-tb select-none">
+            <div class="col-xs-12">
+                <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" class="btn btn-default" ng-click="switchBeep('off')">
+                        <span class="glyphicon glyphicon-ban-circle fs40"
+                              ng-class="{'icon-red': state.beep == 'off', 'icon-off': state.beep != 'off'}"
+                              style="margin-bottom: 8px;" aria-hidden="true"></span>
+                    </button>
+                    <button type="button" class="btn btn-default" ng-click="switchBeep('auto')">
+                        <span class="glyphicon glyphicon-adjust fs40"
+                              ng-class="{'icon-blue': state.beep == 'auto', 'icon-off': state.beep != 'auto'}"
+                              style="margin-bottom: 8px;" aria-hidden="true"></span>
+                    </button>
+                    <button type="button" class="btn btn-default" ng-click="switchBeep('on')">
+                        <span class="glyphicon glyphicon-bell fs40"
+                              ng-class="{'icon-green': state.beep == 'on', 'icon-off': state.beep != 'on'}"
+                              style="margin-top: 3px;" aria-hidden="true"></span>
+                    </button>
+                </div>
+            </div>
+
+            <div ng-show="state.beep == 'auto'">
+                <div class="col-xs-12 fs25 buffer-tb" >
+                    Disable in intervals
+                </div>
+                <div class="col-xs-12">
+                    <div class="row fs25">
+                        <!--<span>from</span>-->
+                        <input type="time" ng-model="state.beepTimesModels.from1" ng-change="onChangeTimes()"/>
+                        <!--<span>to</span>-->
+                        <input type="time" ng-model="state.beepTimesModels.to1" ng-change="onChangeTimes()"/>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 buffer-tb">
+                    <div class="row fs25">
+                       <!--<span>from</span>-->
+                        <input type="time" ng-model="state.beepTimesModels.from2" ng-change="onChangeTimes()"/>
+                        <!--<span>to</span>-->
+                        <input type="time" ng-model="state.beepTimesModels.to2" ng-change="onChangeTimes()"/>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="static/angular.min.js"></script>
+    <script src="static/app.js"></script>
+</body>
+</html>

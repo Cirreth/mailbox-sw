@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/doorbellsrv.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/static/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/static/config.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/static/css/my.css" charset="UTF-8" />
+  </component>
+</project>
