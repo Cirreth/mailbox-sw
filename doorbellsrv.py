@@ -8,14 +8,8 @@ from tornado.httpclient import AsyncHTTPClient
 import tornado.ioloop
 import tornado.web
 
-
-import logging
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
-handler = logging.FileHandler('db.log')
-logger.addHandler(handler)
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-handler.setFormatter(formatter)
+from helpers import now_in_interval
+from logger import logger
 
 logger.info('Running...')
 
@@ -39,24 +33,17 @@ class State:
 
     @classmethod
     def now_beep_enabled(cls):
-        pass
-        # now = datetime.now().strftime('%H:%m')
-        # hours, minutes = now.split(':')
-        # hours = int(hours)
-        # minutes = int(minutes)
-        # from1_h, from1_m = cls.beep_times[0].split(':') if cls.beep_times[0] else None, None
-        # to1_h, to1_m = cls.beep_times[1].split(':') if cls.beep_times[1] else None, None
-        # if from1_h is not None \
-        #         and to1_h is not None \
-        #         and hours > int(from1_h) \
-        #         and minutes > int(from1_m) \
-        #         and hours < int(to1_h) \
-        #         and minutes > int(to1_m):
-        #     return False
-        # from2_h, from2_m = cls.beep_times[2].split(':') if cls.beep_times[2] else None
-        # to2_h, to2_m = cls.beep_times[3].split(':') if cls.beep_times[3] else None
-        # return True
-
+        from1_s = cls.beep_times[0]
+        to1_s = cls.beep_times[1]
+        if from1_s and to1_s and not now_in_interval(from1_s, to1_s):
+            from2_s = cls.beep_times[2]
+            to2_s = cls.beep_times[3]
+            logger.debug('Time control 1: ok')
+            if from2_s and to2_s and not now_in_interval(from2_s, to2_s):
+                logger.debug('Time control 2: ok')
+                return True
+        logger.debug('Time control: disabled')
+        return False
 
     @classmethod
     def as_dict(cls):
@@ -137,15 +124,23 @@ def unlock_mailbox(handler):
         handler.finish(500)
 
 
+def beep(times=20):
+    for i in range(0, times):
+        call('beep')
+        sleep(0.5)
+
+
 class DoorbellHandler(tornado.web.RequestHandler):
 
     def get(self):
         self.finish('ok')
         logger.info('Doorbell!')
+        logger.debug('State: %s' % State.beep)
         if State.beep == 'on':
-            for i in range(0, 10):
-                call('beep')
-                sleep(1)
+            beep()
+        elif State.beep == 'auto':
+            if State.now_beep_enabled():
+                beep()
 
 
 class StateHandler(tornado.web.RequestHandler):

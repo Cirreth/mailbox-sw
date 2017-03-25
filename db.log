@@ -68,3 +68,487 @@
 2017-03-21 22:26:46,882 - __main__ - INFO - Running...
 2017-03-21 22:27:09,231 - __main__ - INFO - Running...
 2017-03-21 22:29:59,078 - __main__ - INFO - Running...
+2017-03-24 19:55:59,734 - logger - DEBUG - Now: 19:55
+2017-03-24 19:55:59,736 - logger - DEBUG - Lock from: 19:55 to 19:58
+2017-03-25 00:36:22,812 - logger - DEBUG - Now: 0:36
+2017-03-25 00:36:22,812 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:36:22,812 - logger - DEBUG - Now: 0:36
+2017-03-25 00:36:22,812 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:36:22,813 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:37:32,845 - logger - DEBUG - Now: 0:37
+2017-03-25 00:37:32,846 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:37:32,846 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:37:32,846 - logger - DEBUG - Now: 0:37
+2017-03-25 00:37:32,846 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:37:32,847 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:37:32,847 - logger - DEBUG - Now: 22:30
+2017-03-25 00:37:32,847 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:37:40,667 - logger - DEBUG - Now: 0:37
+2017-03-25 00:37:40,667 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:37:40,667 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:37:40,667 - logger - DEBUG - Now: 0:37
+2017-03-25 00:37:40,668 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:37:40,668 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:37:40,668 - logger - DEBUG - Now: 22:30
+2017-03-25 00:37:40,668 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:37:40,668 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:39:26,238 - logger - DEBUG - Now: 0:39
+2017-03-25 00:39:26,238 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:39:26,238 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:39:26,239 - logger - DEBUG - Now: 0:39
+2017-03-25 00:39:26,239 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:39:26,239 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:39:26,239 - logger - DEBUG - Now: 22:30
+2017-03-25 00:39:26,239 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:39:26,239 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:39:26,239 - logger - DEBUG - Now: 0:39
+2017-03-25 00:39:26,240 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:42:06,969 - logger - DEBUG - Now: 21:0
+2017-03-25 00:42:06,969 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:42:06,969 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:42:06,969 - logger - DEBUG - Now: 22:0
+2017-03-25 00:42:06,969 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:42:06,969 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:42:06,970 - logger - DEBUG - Now: 22:30
+2017-03-25 00:42:06,970 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:42:06,970 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:42:06,970 - logger - DEBUG - Now: 23:0
+2017-03-25 00:42:06,970 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:42:06,970 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:42:06,971 - logger - DEBUG - Now: 1:0
+2017-03-25 00:42:06,971 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:42:06,971 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:42:18,626 - logger - DEBUG - Now: 21:0
+2017-03-25 00:42:18,626 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:42:18,627 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:42:18,627 - logger - DEBUG - Now: 22:0
+2017-03-25 00:42:18,627 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:42:18,627 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:42:18,627 - logger - DEBUG - Now: 22:30
+2017-03-25 00:42:18,627 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:42:18,627 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:42:18,628 - logger - DEBUG - Now: 23:0
+2017-03-25 00:42:18,628 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:42:18,628 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:42:18,628 - logger - DEBUG - Now: 1:0
+2017-03-25 00:42:18,629 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:42:18,629 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:43:23,788 - logger - DEBUG - Now: 21:0
+2017-03-25 00:43:23,788 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:43:23,789 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:43:23,789 - logger - DEBUG - Now: 22:0
+2017-03-25 00:43:23,789 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:43:23,789 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:43:23,789 - logger - DEBUG - Now: 22:30
+2017-03-25 00:43:23,789 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:43:23,790 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:43:23,790 - logger - DEBUG - Now: 23:0
+2017-03-25 00:43:23,790 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:43:23,790 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:43:23,790 - logger - DEBUG - Now: 1:0
+2017-03-25 00:43:23,790 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:43:23,790 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:44:23,824 - logger - DEBUG - Now: 21:0
+2017-03-25 00:44:23,824 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:44:23,824 - logger - DEBUG - Now: 21:44
+2017-03-25 00:44:23,824 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:44:23,824 - logger - DEBUG - Now: 22:0
+2017-03-25 00:44:23,824 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:44:23,825 - logger - DEBUG - Now: 22:44
+2017-03-25 00:44:23,825 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:44:23,825 - logger - DEBUG - Now: 22:30
+2017-03-25 00:44:23,825 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:44:23,825 - logger - DEBUG - Now: 23:14
+2017-03-25 00:44:23,825 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:44:23,825 - logger - DEBUG - Now: 23:0
+2017-03-25 00:44:23,825 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:44:23,826 - logger - DEBUG - Now: 23:44
+2017-03-25 00:44:23,826 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:44:23,826 - logger - DEBUG - Now: 1:0
+2017-03-25 00:44:23,826 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:44:23,826 - logger - DEBUG - Now: 01:44
+2017-03-25 00:44:23,826 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:46:23,782 - logger - DEBUG - Now: 21:0
+2017-03-25 00:46:23,783 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:46:23,783 - logger - DEBUG - Now: 21:46
+2017-03-25 00:46:23,783 - logger - DEBUG - Lock from: 25 23:01 to 26 06:46
+2017-03-25 00:46:23,783 - logger - DEBUG - Now: 22:0
+2017-03-25 00:46:23,783 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:46:23,783 - logger - DEBUG - Now: 22:46
+2017-03-25 00:46:23,784 - logger - DEBUG - Lock from: 25 23:01 to 26 06:46
+2017-03-25 00:46:23,784 - logger - DEBUG - Now: 22:30
+2017-03-25 00:46:23,784 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:46:23,784 - logger - DEBUG - Now: 23:16
+2017-03-25 00:46:23,784 - logger - DEBUG - Lock from: 25 23:01 to 26 06:46
+2017-03-25 00:46:23,784 - logger - DEBUG - Now: 23:0
+2017-03-25 00:46:23,784 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:46:23,785 - logger - DEBUG - Now: 23:46
+2017-03-25 00:46:23,785 - logger - DEBUG - Lock from: 25 23:01 to 26 06:46
+2017-03-25 00:46:23,785 - logger - DEBUG - Now: 1:0
+2017-03-25 00:46:23,785 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:46:23,785 - logger - DEBUG - Now: 01:46
+2017-03-25 00:46:23,785 - logger - DEBUG - Lock from: 25 23:01 to 26 06:46
+2017-03-25 00:46:23,995 - logger - DEBUG - Now: 21:0
+2017-03-25 00:46:23,995 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:46:23,996 - logger - DEBUG - Now: 21:46
+2017-03-25 00:46:23,996 - logger - DEBUG - Lock from: 25 23:01 to 26 06:46
+2017-03-25 00:46:23,996 - logger - DEBUG - Now: 22:0
+2017-03-25 00:46:23,996 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:46:23,996 - logger - DEBUG - Now: 22:46
+2017-03-25 00:46:23,996 - logger - DEBUG - Lock from: 25 23:01 to 26 06:46
+2017-03-25 00:46:23,996 - logger - DEBUG - Now: 22:30
+2017-03-25 00:46:23,997 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:46:23,997 - logger - DEBUG - Now: 23:16
+2017-03-25 00:46:23,997 - logger - DEBUG - Lock from: 25 23:01 to 26 06:46
+2017-03-25 00:46:23,997 - logger - DEBUG - Now: 23:0
+2017-03-25 00:46:23,997 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:46:23,998 - logger - DEBUG - Now: 23:46
+2017-03-25 00:46:23,998 - logger - DEBUG - Lock from: 25 23:01 to 26 06:46
+2017-03-25 00:46:23,998 - logger - DEBUG - Now: 1:0
+2017-03-25 00:46:23,998 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:46:23,998 - logger - DEBUG - Now: 01:46
+2017-03-25 00:46:23,998 - logger - DEBUG - Lock from: 25 23:01 to 26 06:46
+2017-03-25 00:46:57,024 - logger - DEBUG - Now: 21:0
+2017-03-25 00:46:57,024 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:46:57,024 - logger - DEBUG - Now: 21:46
+2017-03-25 00:46:57,025 - logger - DEBUG - Lock from: 25 23:01 to 26 06:46
+2017-03-25 00:46:57,025 - logger - DEBUG - Now: 22:0
+2017-03-25 00:46:57,025 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:46:57,025 - logger - DEBUG - Now: 22:46
+2017-03-25 00:46:57,025 - logger - DEBUG - Lock from: 25 23:01 to 26 06:46
+2017-03-25 00:46:57,025 - logger - DEBUG - Now: 22:30
+2017-03-25 00:46:57,026 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:46:57,026 - logger - DEBUG - Now: 23:16
+2017-03-25 00:46:57,026 - logger - DEBUG - Lock from: 25 23:01 to 26 06:46
+2017-03-25 00:46:57,026 - logger - DEBUG - Now: 23:0
+2017-03-25 00:46:57,026 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:46:57,026 - logger - DEBUG - Now: 23:46
+2017-03-25 00:46:57,027 - logger - DEBUG - Lock from: 25 23:01 to 26 06:46
+2017-03-25 00:46:57,027 - logger - DEBUG - Now: 1:0
+2017-03-25 00:46:57,027 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:46:57,027 - logger - DEBUG - Now: 01:46
+2017-03-25 00:46:57,027 - logger - DEBUG - Lock from: 25 23:01 to 26 06:46
+2017-03-25 00:47:11,017 - logger - DEBUG - Now: 21:0
+2017-03-25 00:47:11,017 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:47:11,218 - logger - DEBUG - Now: 21:47
+2017-03-25 00:47:11,218 - logger - DEBUG - Lock from: 25 23:02 to 26 06:47
+2017-03-25 00:47:11,218 - logger - DEBUG - Now: 22:0
+2017-03-25 00:47:11,218 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:47:11,218 - logger - DEBUG - Now: 22:47
+2017-03-25 00:47:11,219 - logger - DEBUG - Lock from: 25 23:02 to 26 06:47
+2017-03-25 00:47:11,219 - logger - DEBUG - Now: 22:30
+2017-03-25 00:47:11,219 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:47:11,219 - logger - DEBUG - Now: 23:17
+2017-03-25 00:47:11,219 - logger - DEBUG - Lock from: 25 23:02 to 26 06:47
+2017-03-25 00:47:11,220 - logger - DEBUG - Now: 23:0
+2017-03-25 00:47:11,220 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:47:11,220 - logger - DEBUG - Now: 23:47
+2017-03-25 00:47:11,220 - logger - DEBUG - Lock from: 25 23:02 to 26 06:47
+2017-03-25 00:47:11,220 - logger - DEBUG - Now: 1:0
+2017-03-25 00:47:11,221 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:47:11,221 - logger - DEBUG - Now: 01:47
+2017-03-25 00:47:11,221 - logger - DEBUG - Lock from: 25 23:02 to 26 06:47
+2017-03-25 00:47:32,119 - logger - DEBUG - Now: 21:0
+2017-03-25 00:47:32,119 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:47:32,119 - logger - DEBUG - Now: 21:47
+2017-03-25 00:47:32,119 - logger - DEBUG - Lock from: 25 23:02 to 26 06:47
+2017-03-25 00:47:32,119 - logger - DEBUG - Now: 22:0
+2017-03-25 00:47:32,119 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:47:32,120 - logger - DEBUG - Now: 22:47
+2017-03-25 00:47:32,120 - logger - DEBUG - Lock from: 25 23:02 to 26 06:47
+2017-03-25 00:47:32,120 - logger - DEBUG - Now: 22:30
+2017-03-25 00:47:32,120 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:47:32,120 - logger - DEBUG - Now: 23:17
+2017-03-25 00:47:32,120 - logger - DEBUG - Lock from: 25 23:02 to 26 06:47
+2017-03-25 00:47:32,120 - logger - DEBUG - Now: 23:0
+2017-03-25 00:47:32,121 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:47:32,121 - logger - DEBUG - Now: 23:47
+2017-03-25 00:47:32,121 - logger - DEBUG - Lock from: 25 23:02 to 26 06:47
+2017-03-25 00:47:32,121 - logger - DEBUG - Now: 1:0
+2017-03-25 00:47:32,121 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:47:32,121 - logger - DEBUG - Now: 01:47
+2017-03-25 00:47:32,122 - logger - DEBUG - Lock from: 25 23:02 to 26 06:47
+2017-03-25 00:49:53,663 - logger - DEBUG - Now: 21:0
+2017-03-25 00:49:53,663 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:49:53,698 - logger - DEBUG - Now: 21:0
+2017-03-25 00:49:53,699 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:52:14,637 - logger - DEBUG - Now: 21:0
+2017-03-25 00:52:14,637 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:52:14,637 - logger - DEBUG - Now: 21:52
+2017-03-25 00:52:14,637 - logger - DEBUG - Lock from: 25 23:07 to 26 06:52
+2017-03-25 00:52:14,637 - logger - DEBUG - Now: 22:0
+2017-03-25 00:52:14,637 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:52:14,638 - logger - DEBUG - Now: 22:52
+2017-03-25 00:52:14,638 - logger - DEBUG - Lock from: 25 23:07 to 26 06:52
+2017-03-25 00:52:14,638 - logger - DEBUG - Now: 22:30
+2017-03-25 00:52:14,638 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:52:14,638 - logger - DEBUG - Now: 23:22
+2017-03-25 00:52:14,638 - logger - DEBUG - Lock from: 25 23:07 to 26 06:52
+2017-03-25 00:52:14,638 - logger - DEBUG - Now: 23:0
+2017-03-25 00:52:14,639 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:52:14,639 - logger - DEBUG - Now: 23:52
+2017-03-25 00:52:14,639 - logger - DEBUG - Lock from: 25 23:07 to 26 06:52
+2017-03-25 00:52:14,639 - logger - DEBUG - Now: 1:0
+2017-03-25 00:52:14,639 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:52:14,639 - logger - DEBUG - Now: 01:52
+2017-03-25 00:52:14,639 - logger - DEBUG - Lock from: 25 23:07 to 26 06:52
+2017-03-25 00:53:17,155 - logger - DEBUG - Now: 21:0
+2017-03-25 00:53:17,155 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:53:17,156 - logger - DEBUG - Now: 21:53
+2017-03-25 00:53:17,156 - logger - DEBUG - Lock from: 25 23:08 to 26 06:53
+2017-03-25 00:53:17,156 - logger - DEBUG - Now: 22:0
+2017-03-25 00:53:17,156 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:53:17,156 - logger - DEBUG - Now: 22:53
+2017-03-25 00:53:17,157 - logger - DEBUG - Lock from: 25 23:08 to 26 06:53
+2017-03-25 00:53:17,157 - logger - DEBUG - Now: 22:30
+2017-03-25 00:53:17,157 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:53:17,157 - logger - DEBUG - Now: 23:23
+2017-03-25 00:53:17,157 - logger - DEBUG - Lock from: 25 23:08 to 26 06:53
+2017-03-25 00:53:17,157 - logger - DEBUG - Now: 23:0
+2017-03-25 00:53:17,157 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:53:17,158 - logger - DEBUG - Now: 23:53
+2017-03-25 00:53:17,158 - logger - DEBUG - Lock from: 25 23:08 to 26 06:53
+2017-03-25 00:53:17,158 - logger - DEBUG - Now: 1:0
+2017-03-25 00:53:17,158 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:53:17,158 - logger - DEBUG - Now: 01:53
+2017-03-25 00:53:17,158 - logger - DEBUG - Lock from: 25 23:08 to 26 06:53
+2017-03-25 00:53:45,093 - logger - DEBUG - Now: 21:0
+2017-03-25 00:53:45,093 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:53:45,094 - logger - DEBUG - Now: 21:53
+2017-03-25 00:53:45,094 - logger - DEBUG - Lock from: 25 23:08 to 26 06:53
+2017-03-25 00:53:45,094 - logger - DEBUG - Now: 22:0
+2017-03-25 00:53:45,094 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:53:45,094 - logger - DEBUG - Now: 22:53
+2017-03-25 00:53:45,095 - logger - DEBUG - Lock from: 25 23:08 to 26 06:53
+2017-03-25 00:53:45,095 - logger - DEBUG - Now: 22:30
+2017-03-25 00:53:45,095 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:53:45,095 - logger - DEBUG - Now: 23:23
+2017-03-25 00:53:45,095 - logger - DEBUG - Lock from: 25 23:08 to 26 06:53
+2017-03-25 00:53:45,095 - logger - DEBUG - Now: 23:0
+2017-03-25 00:53:45,096 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:53:45,096 - logger - DEBUG - Now: 23:53
+2017-03-25 00:53:45,096 - logger - DEBUG - Lock from: 25 23:08 to 26 06:53
+2017-03-25 00:53:45,096 - logger - DEBUG - Now: 1:0
+2017-03-25 00:53:45,096 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:53:45,097 - logger - DEBUG - Now: 01:53
+2017-03-25 00:53:45,097 - logger - DEBUG - Lock from: 25 23:08 to 26 06:53
+2017-03-25 00:54:16,464 - logger - DEBUG - Now: 21:0
+2017-03-25 00:54:16,465 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:54:16,465 - logger - DEBUG - Now: 21:00
+2017-03-25 00:54:16,465 - logger - DEBUG - Lock from: 25 22:15 to 26 06:00
+2017-03-25 00:54:16,465 - logger - DEBUG - Now: 22:0
+2017-03-25 00:54:16,465 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:54:16,465 - logger - DEBUG - Now: 22:00
+2017-03-25 00:54:16,466 - logger - DEBUG - Lock from: 25 22:15 to 26 06:00
+2017-03-25 00:54:16,466 - logger - DEBUG - Now: 22:30
+2017-03-25 00:54:16,466 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:54:16,466 - logger - DEBUG - Now: 22:30
+2017-03-25 00:54:16,467 - logger - DEBUG - Lock from: 25 22:15 to 26 06:00
+2017-03-25 00:54:16,467 - logger - DEBUG - Now: 23:0
+2017-03-25 00:54:16,467 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:54:16,467 - logger - DEBUG - Now: 23:00
+2017-03-25 00:54:16,467 - logger - DEBUG - Lock from: 25 22:15 to 26 06:00
+2017-03-25 00:54:16,467 - logger - DEBUG - Now: 1:0
+2017-03-25 00:54:16,467 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:54:16,468 - logger - DEBUG - Now: 01:00
+2017-03-25 00:54:16,468 - logger - DEBUG - Lock from: 25 22:15 to 26 06:00
+2017-03-25 00:54:33,926 - logger - DEBUG - Now: 21:0
+2017-03-25 00:54:33,926 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:54:33,926 - logger - DEBUG - Now: 21:00
+2017-03-25 00:54:33,926 - logger - DEBUG - Lock from: 25 22:15 to 26 06:00
+2017-03-25 00:54:33,926 - logger - DEBUG - Now: 22:0
+2017-03-25 00:54:33,926 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:54:33,926 - logger - DEBUG - Now: 22:00
+2017-03-25 00:54:33,927 - logger - DEBUG - Lock from: 25 22:15 to 26 06:00
+2017-03-25 00:54:33,927 - logger - DEBUG - Now: 22:30
+2017-03-25 00:54:33,927 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:54:33,927 - logger - DEBUG - Now: 22:30
+2017-03-25 00:54:33,927 - logger - DEBUG - Lock from: 25 22:15 to 26 06:00
+2017-03-25 00:54:33,927 - logger - DEBUG - Now: 23:0
+2017-03-25 00:54:33,927 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:54:33,928 - logger - DEBUG - Now: 23:00
+2017-03-25 00:54:33,928 - logger - DEBUG - Lock from: 25 22:15 to 26 06:00
+2017-03-25 00:54:33,928 - logger - DEBUG - Now: 1:0
+2017-03-25 00:54:33,928 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:54:33,928 - logger - DEBUG - Now: 01:00
+2017-03-25 00:54:33,928 - logger - DEBUG - Lock from: 25 22:15 to 26 06:00
+2017-03-25 00:56:47,214 - logger - DEBUG - Now: 21:0
+2017-03-25 00:56:47,214 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:56:47,214 - logger - DEBUG - Now: 21:00
+2017-03-25 00:56:47,214 - logger - DEBUG - Lock from: 24 22:15 to 26 06:00
+2017-03-25 00:59:01,071 - logger - DEBUG - Now: 21:0
+2017-03-25 00:59:01,071 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:59:01,071 - logger - DEBUG - Now: 21:00
+2017-03-25 00:59:01,071 - logger - DEBUG - Lock from: 25 22:15 to 26 06:00
+2017-03-25 00:59:01,072 - logger - DEBUG - Now: 22:0
+2017-03-25 00:59:01,072 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:59:01,072 - logger - DEBUG - Now: 22:00
+2017-03-25 00:59:01,072 - logger - DEBUG - Lock from: 25 22:15 to 26 06:00
+2017-03-25 00:59:01,072 - logger - DEBUG - Now: 22:30
+2017-03-25 00:59:01,072 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:59:01,072 - logger - DEBUG - Now: 22:30
+2017-03-25 00:59:01,073 - logger - DEBUG - Lock from: 25 22:15 to 26 06:00
+2017-03-25 00:59:01,073 - logger - DEBUG - Now: 23:0
+2017-03-25 00:59:01,073 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:59:01,073 - logger - DEBUG - Now: 23:00
+2017-03-25 00:59:01,073 - logger - DEBUG - Lock from: 25 22:15 to 26 06:00
+2017-03-25 00:59:01,073 - logger - DEBUG - Now: 1:0
+2017-03-25 00:59:01,073 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:59:01,074 - logger - DEBUG - Now: 01:00
+2017-03-25 00:59:01,074 - logger - DEBUG - Lock from: 25 22:15 to 26 06:00
+2017-03-25 00:59:41,680 - logger - DEBUG - Now: 21:0
+2017-03-25 00:59:41,681 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:59:41,681 - logger - DEBUG - Now: 21:00
+2017-03-25 00:59:41,681 - logger - DEBUG - Lock from: 25 22:15 to 26 06:00
+2017-03-25 00:59:41,681 - logger - DEBUG - Now: 22:0
+2017-03-25 00:59:41,681 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:59:41,681 - logger - DEBUG - Now: 22:00
+2017-03-25 00:59:41,682 - logger - DEBUG - Lock from: 25 22:15 to 26 06:00
+2017-03-25 00:59:41,682 - logger - DEBUG - Now: 22:30
+2017-03-25 00:59:41,682 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:59:41,682 - logger - DEBUG - Now: 22:30
+2017-03-25 00:59:41,682 - logger - DEBUG - Lock from: 25 22:15 to 26 06:00
+2017-03-25 00:59:41,682 - logger - DEBUG - Now: 23:0
+2017-03-25 00:59:41,682 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:59:41,683 - logger - DEBUG - Now: 23:00
+2017-03-25 00:59:41,683 - logger - DEBUG - Lock from: 25 22:15 to 26 06:00
+2017-03-25 00:59:41,683 - logger - DEBUG - Now: 1:0
+2017-03-25 00:59:41,683 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 00:59:41,683 - logger - DEBUG - Now: 01:00
+2017-03-25 00:59:41,683 - logger - DEBUG - Lock from: 25 22:15 to 26 06:00
+2017-03-25 08:52:35,918 - logger - DEBUG - Now: 21:0
+2017-03-25 08:52:35,918 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 08:52:35,919 - logger - DEBUG - Now: 22:0
+2017-03-25 08:52:35,919 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 08:52:35,919 - logger - DEBUG - Now: 22:30
+2017-03-25 08:52:35,919 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 08:52:35,919 - logger - DEBUG - Now: 23:0
+2017-03-25 08:52:35,919 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 08:52:35,920 - logger - DEBUG - Now: 1:0
+2017-03-25 08:52:35,920 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 08:52:35,920 - logger - DEBUG - Now: 5:45
+2017-03-25 08:52:35,920 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 08:52:35,920 - logger - DEBUG - Now: 6:15
+2017-03-25 08:52:35,920 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 08:52:35,920 - logger - DEBUG - Now: 7:45
+2017-03-25 08:52:35,921 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 08:52:35,921 - logger - DEBUG - Now: 15:45
+2017-03-25 08:52:35,921 - logger - DEBUG - Lock from: 16:10 to 18:30
+2017-03-25 08:52:35,921 - logger - DEBUG - Now: 16:0
+2017-03-25 08:52:35,921 - logger - DEBUG - Lock from: 16:10 to 18:30
+2017-03-25 08:52:35,921 - logger - DEBUG - Now: 16:30
+2017-03-25 08:52:35,921 - logger - DEBUG - Lock from: 16:10 to 18:30
+2017-03-25 08:52:35,921 - logger - DEBUG - Now: 17:45
+2017-03-25 08:52:35,922 - logger - DEBUG - Lock from: 16:10 to 18:30
+2017-03-25 08:52:35,922 - logger - DEBUG - Now: 18:0
+2017-03-25 08:52:35,922 - logger - DEBUG - Lock from: 16:10 to 18:30
+2017-03-25 08:52:35,922 - logger - DEBUG - Now: 18:45
+2017-03-25 08:52:35,922 - logger - DEBUG - Lock from: 16:10 to 18:30
+2017-03-25 08:52:35,922 - logger - DEBUG - Now: 19:0
+2017-03-25 08:52:35,923 - logger - DEBUG - Lock from: 16:10 to 18:30
+2017-03-25 08:52:35,923 - logger - DEBUG - Now: 16:0
+2017-03-25 08:52:35,923 - logger - DEBUG - Lock from: 16:10 to 16:30
+2017-03-25 08:56:43,856 - logger - DEBUG - Now: 21:0
+2017-03-25 08:56:43,856 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 08:56:43,856 - logger - DEBUG - Now: 22:0
+2017-03-25 08:56:43,856 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 08:56:43,856 - logger - DEBUG - Now: 22:30
+2017-03-25 08:56:43,857 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 08:56:43,857 - logger - DEBUG - Now: 23:0
+2017-03-25 08:56:43,857 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 08:56:43,857 - logger - DEBUG - Now: 1:0
+2017-03-25 08:56:43,857 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 08:56:43,857 - logger - DEBUG - Now: 5:45
+2017-03-25 08:56:43,857 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 08:56:43,858 - logger - DEBUG - Now: 6:15
+2017-03-25 08:56:43,858 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 08:56:43,858 - logger - DEBUG - Now: 7:45
+2017-03-25 08:56:43,858 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 08:56:43,858 - logger - DEBUG - Now: 15:45
+2017-03-25 08:56:43,858 - logger - DEBUG - Lock from: 16:10 to 18:30
+2017-03-25 08:56:43,858 - logger - DEBUG - Now: 16:0
+2017-03-25 08:56:43,859 - logger - DEBUG - Lock from: 16:10 to 18:30
+2017-03-25 08:56:43,859 - logger - DEBUG - Now: 16:30
+2017-03-25 08:56:43,859 - logger - DEBUG - Lock from: 16:10 to 18:30
+2017-03-25 08:56:43,859 - logger - DEBUG - Now: 17:45
+2017-03-25 08:56:43,859 - logger - DEBUG - Lock from: 16:10 to 18:30
+2017-03-25 08:56:43,859 - logger - DEBUG - Now: 18:0
+2017-03-25 08:56:43,859 - logger - DEBUG - Lock from: 16:10 to 18:30
+2017-03-25 08:56:43,861 - logger - DEBUG - Now: 18:45
+2017-03-25 08:56:43,861 - logger - DEBUG - Lock from: 16:10 to 18:30
+2017-03-25 08:56:43,862 - logger - DEBUG - Now: 19:0
+2017-03-25 08:56:43,862 - logger - DEBUG - Lock from: 16:10 to 18:30
+2017-03-25 08:56:43,862 - logger - DEBUG - Now: 16:0
+2017-03-25 08:56:43,862 - logger - DEBUG - Lock from: 16:10 to 16:30
+2017-03-25 08:57:30,601 - logger - DEBUG - Now: 21:0
+2017-03-25 08:57:30,601 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 08:57:30,601 - logger - DEBUG - Now: 22:0
+2017-03-25 08:57:30,602 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 08:57:30,602 - logger - DEBUG - Now: 22:30
+2017-03-25 08:57:30,602 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 08:57:30,602 - logger - DEBUG - Now: 23:0
+2017-03-25 08:57:30,602 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 08:57:30,603 - logger - DEBUG - Now: 1:0
+2017-03-25 08:57:30,603 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 08:57:30,603 - logger - DEBUG - Now: 5:45
+2017-03-25 08:57:30,603 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 08:57:30,603 - logger - DEBUG - Now: 6:15
+2017-03-25 08:57:30,603 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 08:57:30,603 - logger - DEBUG - Now: 7:45
+2017-03-25 08:57:30,603 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 08:57:30,604 - logger - DEBUG - Now: 15:45
+2017-03-25 08:57:30,604 - logger - DEBUG - Lock from: 16:10 to 18:30
+2017-03-25 08:57:30,604 - logger - DEBUG - Now: 16:0
+2017-03-25 08:57:30,604 - logger - DEBUG - Lock from: 16:10 to 18:30
+2017-03-25 08:57:30,604 - logger - DEBUG - Now: 16:30
+2017-03-25 08:57:30,604 - logger - DEBUG - Lock from: 16:10 to 18:30
+2017-03-25 08:57:30,604 - logger - DEBUG - Now: 17:45
+2017-03-25 08:57:30,605 - logger - DEBUG - Lock from: 16:10 to 18:30
+2017-03-25 08:57:30,605 - logger - DEBUG - Now: 18:0
+2017-03-25 08:57:30,605 - logger - DEBUG - Lock from: 16:10 to 18:30
+2017-03-25 08:57:30,605 - logger - DEBUG - Now: 18:45
+2017-03-25 08:57:30,605 - logger - DEBUG - Lock from: 16:10 to 18:30
+2017-03-25 08:57:30,605 - logger - DEBUG - Now: 19:0
+2017-03-25 08:57:30,605 - logger - DEBUG - Lock from: 16:10 to 18:30
+2017-03-25 08:57:30,606 - logger - DEBUG - Now: 16:0
+2017-03-25 08:57:30,606 - logger - DEBUG - Lock from: 16:10 to 16:30
+2017-03-25 08:57:30,606 - logger - DEBUG - Now: 16:25
+2017-03-25 08:57:30,606 - logger - DEBUG - Lock from: 16:10 to 16:30
+2017-03-25 08:57:30,606 - logger - DEBUG - Now: 16:45
+2017-03-25 08:57:30,606 - logger - DEBUG - Lock from: 16:10 to 16:30
+2017-03-25 08:58:12,647 - logger - DEBUG - Now: 21:0
+2017-03-25 08:58:12,647 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 08:58:12,647 - logger - DEBUG - Now: 22:0
+2017-03-25 08:58:12,648 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 08:58:12,648 - logger - DEBUG - Now: 22:30
+2017-03-25 08:58:12,648 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 08:58:12,648 - logger - DEBUG - Now: 23:0
+2017-03-25 08:58:12,648 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 08:58:12,648 - logger - DEBUG - Now: 1:0
+2017-03-25 08:58:12,648 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 08:58:12,649 - logger - DEBUG - Now: 5:45
+2017-03-25 08:58:12,649 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 08:58:12,649 - logger - DEBUG - Now: 6:15
+2017-03-25 08:58:12,649 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 08:58:12,650 - logger - DEBUG - Now: 7:45
+2017-03-25 08:58:12,650 - logger - DEBUG - Lock from: 22:15 to 6:0
+2017-03-25 08:58:12,651 - logger - DEBUG - Now: 15:45
+2017-03-25 08:58:12,654 - logger - DEBUG - Lock from: 16:10 to 18:30
+2017-03-25 08:58:12,655 - logger - DEBUG - Now: 16:0
+2017-03-25 08:58:12,655 - logger - DEBUG - Lock from: 16:10 to 18:30
+2017-03-25 08:58:12,655 - logger - DEBUG - Now: 16:30
+2017-03-25 08:58:12,656 - logger - DEBUG - Lock from: 16:10 to 18:30
+2017-03-25 08:58:12,656 - logger - DEBUG - Now: 17:45
+2017-03-25 08:58:12,656 - logger - DEBUG - Lock from: 16:10 to 18:30
+2017-03-25 08:58:12,656 - logger - DEBUG - Now: 18:0
+2017-03-25 08:58:12,656 - logger - DEBUG - Lock from: 16:10 to 18:30
+2017-03-25 08:58:12,656 - logger - DEBUG - Now: 18:45
+2017-03-25 08:58:12,657 - logger - DEBUG - Lock from: 16:10 to 18:30
+2017-03-25 08:58:12,657 - logger - DEBUG - Now: 19:0
+2017-03-25 08:58:12,658 - logger - DEBUG - Lock from: 16:10 to 18:30
+2017-03-25 08:58:12,658 - logger - DEBUG - Now: 16:0
+2017-03-25 08:58:12,659 - logger - DEBUG - Lock from: 16:10 to 16:30
+2017-03-25 08:58:12,659 - logger - DEBUG - Now: 16:25
+2017-03-25 08:58:12,659 - logger - DEBUG - Lock from: 16:10 to 16:30
+2017-03-25 08:58:12,659 - logger - DEBUG - Now: 16:45
+2017-03-25 08:58:12,659 - logger - DEBUG - Lock from: 16:10 to 16:30
