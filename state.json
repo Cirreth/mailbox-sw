@@ -1,1 +1,1 @@
-{"beepTimes": ["22:30", "08:30", "14:30", "17:30"], "beep": "auto"}
+{"beep": "auto", "beepTimes": ["22:15", "09:00", null, null]}

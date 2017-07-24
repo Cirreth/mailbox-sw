@@ -552,3 +552,29 @@
 2017-03-25 08:58:12,659 - logger - DEBUG - Lock from: 16:10 to 16:30
 2017-03-25 08:58:12,659 - logger - DEBUG - Now: 16:45
 2017-03-25 08:58:12,659 - logger - DEBUG - Lock from: 16:10 to 16:30
+2017-07-24 21:21:45,850 - logger - INFO - Running...
+2017-07-24 21:22:12,289 - logger - INFO - Doorbell!
+2017-07-24 21:22:12,290 - logger - DEBUG - State: auto
+2017-07-24 21:22:12,291 - logger - DEBUG - Now: 21:22
+2017-07-24 21:22:12,292 - logger - DEBUG - Lock from: 22:15 to 9:0
+2017-07-24 21:22:12,292 - logger - DEBUG - Time control 1: ok
+2017-07-24 21:22:29,250 - logger - INFO - Doorbell!
+2017-07-24 21:22:29,251 - logger - DEBUG - State: auto
+2017-07-24 21:22:29,252 - logger - DEBUG - Now: 21:22
+2017-07-24 21:22:29,252 - logger - DEBUG - Lock from: 2:15 to 9:0
+2017-07-24 21:22:29,253 - logger - DEBUG - Time control 1: ok
+2017-07-24 21:22:52,188 - logger - INFO - Doorbell!
+2017-07-24 21:22:52,189 - logger - DEBUG - State: auto
+2017-07-24 21:22:52,190 - logger - DEBUG - Now: 21:22
+2017-07-24 21:22:52,191 - logger - DEBUG - Lock from: 21:15 to 9:0
+2017-07-24 21:22:52,192 - logger - DEBUG - Time control: disabled
+2017-07-24 21:22:53,931 - logger - INFO - Doorbell!
+2017-07-24 21:22:53,932 - logger - DEBUG - State: auto
+2017-07-24 21:22:53,933 - logger - DEBUG - Now: 21:22
+2017-07-24 21:22:53,934 - logger - DEBUG - Lock from: 21:15 to 9:0
+2017-07-24 21:22:53,935 - logger - DEBUG - Time control: disabled
+2017-07-24 21:23:04,990 - logger - INFO - Doorbell!
+2017-07-24 21:23:04,990 - logger - DEBUG - State: auto
+2017-07-24 21:23:04,991 - logger - DEBUG - Now: 21:23
+2017-07-24 21:23:04,992 - logger - DEBUG - Lock from: 22:15 to 9:0
+2017-07-24 21:23:04,993 - logger - DEBUG - Time control 1: ok

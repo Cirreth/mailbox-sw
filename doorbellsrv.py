@@ -39,8 +39,11 @@ class State:
             from2_s = cls.beep_times[2]
             to2_s = cls.beep_times[3]
             logger.debug('Time control 1: ok')
-            if from2_s and to2_s and not now_in_interval(from2_s, to2_s):
-                logger.debug('Time control 2: ok')
+            if from2_s and to2_s:
+                if not now_in_interval(from2_s, to2_s):
+                    logger.debug('Time control 2: ok')
+                    return True
+            else:
                 return True
         logger.debug('Time control: disabled')
         return False
