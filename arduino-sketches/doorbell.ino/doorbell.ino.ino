@@ -28,6 +28,7 @@
 #define ONBOARD_LED 13
 #define SERVO_CONTROL_PIN 9
 #define DOORBELL_LOCK_TIMEOUT 15000
+#define OPEN_CONTROL_BTN 16
 
 #define DOORBELL_BLINK_COUNT 10
 #define DOORBELL_AMBIENT_LEVEL 50
@@ -52,6 +53,7 @@ void setup(){
   doorlockServo.attach(SERVO_CONTROL_PIN);
   pinMode(MAILBOX_PIN, INPUT_PULLUP);
   /**/
+  pinMode(OPEN_CONTROL_BTN, INPUT_PULLUP);
   pinMode(ONBOARD_LED, OUTPUT);
   pinMode(CONTENT_SENSOR_LED, OUTPUT);
 //  pinMode(CONTENT_SENSOR, INPUT);
@@ -63,7 +65,7 @@ void setup(){
 
   lockMailBox();
 }
-
+volatile bool mailBoxIsOpened = false;
 volatile bool mailBoxIsLocked = true;
 volatile bool doorbellTriggered = false;
 unsigned long doorbellTimeout = 0;
@@ -73,11 +75,18 @@ const unsigned long DB_CONFIRMATION_CHECK_INTERVAL = 1000;
 
 void loop(){
   contentSensorValue = analogRead(CONTENT_SENSOR);
+  mailBoxIsOpened = digitalRead(OPEN_CONTROL_BTN) == HIGH;
+  if (!mailBoxIsLocked && !mailBoxIsOpened) {
+    lockMailBox();
+  } else if (mailBoxIsOpened) {
+    unlockMailBox();
+  }
+  
   if (doorbellTriggered == false && doorbellTimeout == 0) {
     if (contentSensorValue < CONTENT_SENSOR_TRESHOLD) {
       analogWrite(DOORBELL_LED_R, 1.5*DOORBELL_AMBIENT_LEVEL);
       analogWrite(DOORBELL_LED_G, DOORBELL_AMBIENT_LEVEL/2);
-      analogWrite(DOORBELL_LED_B, 1.5*DOORBELL_AMBIENT_LEVEL);
+      analogWrite(DOORBELL_LED_B, DOORBELL_AMBIENT_LEVEL/2);
     } else {
       analogWrite(DOORBELL_LED_G, 1.5*DOORBELL_AMBIENT_LEVEL);
       analogWrite(DOORBELL_LED_R, DOORBELL_AMBIENT_LEVEL/2);
@@ -117,16 +126,13 @@ void loop(){
   }
 
   if (doorbellTimeout == 0) {
-      long cs =  doorbellBtnCapacitySensor.capacitiveSensor(80);
+      long cs =  doorbellBtnCapacitySensor.capacitiveSensor(100);
       if (cs > 70) {
         csSum += cs;
-        if (csSum >= 700) //c: This value is the threshold, a High value means it takes longer to trigger
+        if (csSum >= 1500) //c: This value is the threshold, a High value means it takes longer to trigger
         {
-          if (!mailBoxIsLocked) {
-            lockMailBox();
-          } else {
-            // doorbell trigger only on closed mailbox
-            doorbellTriggered = true;  
+          if (mailBoxIsLocked) {
+            doorbellTriggered = true;
           }
           if (csSum > 0) { csSum = 0; } //Reset
           doorbellBtnCapacitySensor.reset_CS_AutoCal(); //Stops readings
@@ -211,6 +217,8 @@ void unlockMailBox() {
  mailBoxIsLocked = false;
  sendComplete();
  digitalWrite(10, HIGH);
+ // 3s to open the door
+ delay(3000);
 }
 
 void lockMailBox() {
